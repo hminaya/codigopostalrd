@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Codigo:</b>
+  <%= @zipcode.codigo %>
+</p>
+
+<p>
+  <b>Provincia:</b>
+  <%= @zipcode.provincia %>
+</p>
+
+<p>
+  <b>Sector:</b>
+  <%= @zipcode.sector %>
+</p>
+
+
+<%= link_to 'Edit', edit_zipcode_path(@zipcode) %> |
+<%= link_to 'Back', zipcodes_path %>
